@@ -1,0 +1,6 @@
+[submodule "Daemons"]
+	path = Daemons
+	url = https://github.com/jan-kala/Daemons.git
+[submodule "BrowserExtension"]
+	path = BrowserExtension
+	url = https://github.com/jan-kala/BrowserExtension.git
