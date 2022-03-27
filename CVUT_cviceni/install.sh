@@ -1,4 +1,6 @@
 #!/bin/bash
 
 ./BrowserExtension/setup-mozilla.sh
-sudo ./Daemons/InterfaceMonitor > /tmp/WebAnnotator/interface.csv 
+
+ACTIVE_INTERFACE="$(ip addr show | awk '/inet.*brd/{print $NF; exit}')"
+sudo ./Daemons/InterfaceMonitor $ACTIVE_INTERFACE > /tmp/WebAnnotator/interface.csv 
