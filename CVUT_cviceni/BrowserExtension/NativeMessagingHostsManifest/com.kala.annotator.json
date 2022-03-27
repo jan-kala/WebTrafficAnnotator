@@ -1,0 +1,7 @@
+{
+   "name": "com.kala.annotator",
+   "description": "Native Messaging Host - Annotator Daemon",
+   "path": "\/usr\/local\/bin\/WebAnnotator\/HTTPDataResender",
+   "type": "stdio",
+   "allowed_extensions": ["kala@annotator.com"]
+ }

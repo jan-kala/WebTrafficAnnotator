@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Kala Browser Annotator",
+    "description": "Annotates web traffic coming from/to the browser.",
+    "version": "1.0.0",
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "kala@annotator.com"
+      }
+    },
+
+    "permissions": [
+      "nativeMessaging",
+      "webRequest",
+      "<all_urls>"
+    ],
+
+    "background": {
+      "scripts": ["background.js"]
+    },
+
+    "icons": {
+      "32": "Icon/cesnet-32.png"
+    }
+  }
